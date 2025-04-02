@@ -1,0 +1,46 @@
+@font-face {
+    font-family: machina;
+    src: url(./fonts/659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.woff);
+}
+
+:root{
+    --salmon: #EF9D71;
+    --black: #000;
+    --white: #fff;
+    --cyan: #AEDEE0;
+    --dsalmon: #532521;
+    --dcyan: #1f2f32;
+}
+
+
+*::selection{
+    background-color: var(--salmon);
+}
+
+body[theme="black"]{
+    background-color: black;
+}
+
+body[theme="black"] .section{
+    color: var(--white);
+}
+
+body[theme="cyan"]{
+    background-color: var(--cyan);
+}
+
+body[theme="cyan"] .section{
+    color: #1f2f32;
+}
+
+body[theme="salmon"]{
+    background-color: var(--salmon);
+}
+
+body[theme="salmon"]{
+    color: rgb(83, 37, 33);
+}
+
+body[theme="white"].section{
+    color: black;
+}
